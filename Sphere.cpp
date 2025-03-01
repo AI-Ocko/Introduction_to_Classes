@@ -27,9 +27,9 @@ double Sphere::getRadius() {
 }
 
 double Sphere::calcSurfaceArea(double radiusPar) {
-    4.0 * M_PI * pow(radiusPar, 2.0);
+    return 4.0 * M_PI * pow(radiusPar, 2.0);
 }
 
 double Sphere::calcVolume(double radiusPar) {
-    (4.0/3.0) * M_PI * pow(radiusPar, 3.0);
+    return (4.0/3.0) * M_PI * pow(radiusPar, 3.0);
 }
