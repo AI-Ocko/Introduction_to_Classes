@@ -22,7 +22,7 @@ int main() {
     //calculation and output
     radiusTemp = basketball.getRadius();
     cout << "Basketball: " << endl;
-    cout << "Surface area: " << basketball.calcSurfaceArea(radiusTemp);
+    cout << "Surface area: " << basketball.calcSurfaceArea(radiusTemp) << endl;
     cout << "Volumne: " << basketball.calcVolume(radiusTemp);
 
 
